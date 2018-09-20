@@ -1,14 +1,14 @@
-.head-top {
-    float: left;
-    width: 20%;
-    text-align: center;
-    height: 550px;
+ .head-top {
+    float           : left;
+    width           : 20%;
+    text-align      : center;
+    height          : 550px;
     background-color: #63a2d8;
-    color: #fff;
+    color           : #fff;
 }
 
 .concemt {
-    float: left;
+    float      : left;
     margin-left: 4%;
 }
 
