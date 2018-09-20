@@ -1,0 +1,60 @@
+* {}
+
+.education_experience_wrap h3,
+.education_experience_wrap span,
+.comprehensive_abilities,
+.technical_skills,
+.essential_information_wrap p {
+    font-weight: 600;
+}
+
+.head-top h1 {
+    width: 100%;
+    height: 90px;
+    background-color: #858585;
+    line-height: 90px;
+    color: #fff;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.capability_description_wrap,
+.essential_information_wrap {
+    height: 200px;
+}
+
+.capability_description,
+.education_experience_wrap,
+.essential_information {
+    margin: 0;
+    width: 20%;
+    height: 200px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 200px;
+    display: inline-block;
+}
+
+.essential_information_wrap {
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+}
+
+.essential_information_wrap p {
+    display: inline-block;
+    width: 79%;
+}
+
+.comprehensive_abilities {
+    display: inline-block;
+}
+
+.technical_skills h3 {
+    margin: 0;
+}
+
+.fr,
+.capability_description_wrap h2 {
+    display: inline-block;
+    height: 200px;
+}

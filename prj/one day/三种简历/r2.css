@@ -1,0 +1,21 @@
+.head-top {
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 550px;
+    background-color: #63a2d8;
+    color: #fff;
+}
+
+.concemt {
+    float: left;
+    margin-left: 4%;
+}
+
+.education_experience_wrap h3,
+.education_experience_wrap span,
+.comprehensive_abilities,
+.technical_skills,
+.essential_information_wrap p {
+    font-weight: 600;
+}
