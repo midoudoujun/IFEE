@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>页面加载</title>
+</head>
+<style>
+    #doing {
+        z-index: 99;
+        left: 0;
+        top: 0;
+        display: none;
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        background: gray;
+    }
+</style>
+<script>
+    function submitForm() {
+        var doing = document.getElementById('doing');
+        doing.style.display = "block";
+        self.location.reload();
+    }
+</script>
+
+<body>
+    <!-- 友好提示界面的层 -->
+    <div id="doing">
+        <br/><br/><br/>载入中，请稍等
+    </div>
+    <p>
+        <input type="button" value="提交表单" onclick="submitForm()">
+    </p>
+</body>
+
+</html>

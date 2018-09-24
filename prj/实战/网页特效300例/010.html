@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>将网站设为首页</title>
+    <script>
+        function setMyHomePage() {
+            if (document.all) {
+                document.body.style.behavior = 'url(#default#homepage)';
+                document.body.setMyHomePage('https://www.baidu.com');
+            } else if (window.sidebar) {
+                var thePrefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPefBranch);
+                thePrefs.setCharPref('browser.startup.homepage', 'http://www.myhomepage.com');
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <p>
+        <a href="#" onclick="setMyHomePage()">设为首页</a>
+    </p>
+</body>
+
+</html>
