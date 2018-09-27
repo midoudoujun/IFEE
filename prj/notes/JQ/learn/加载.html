@@ -9,29 +9,27 @@
 </head>
 
 <body>
-    <div class="SubCategoryBox">
-        <ul>
-            <li><a href="#">索尼</a><i></i></li>
-            <li><a href="#">三星</a><i></i></li>
-            <li><a href="#">松下</a><i></i></li>
-            <li><a href="#">志高</a><i></i></li>
-            <li><a href="#">富士</a><i></i></li>
-            <li><a href="#">理光</a><i></i></li>
-            <li><a href="#">爱国者</a><i></i></li>
-            <li><a href="#">明基</a><i></i></li>
-            <li><a href="#">其他品牌</a><i></i></li>
-        </ul>
-        <div class="showmore">
-            <a href="more.html"><span></span></a>
-        </div>
-    </div>
+    <ul id="ul1">
+        <p>qqqqqqqq</p>
+        <li>111</li>
+        <li>222</li>
+        <li>333</li>
+        <li>444</li>
+    </ul>
     <script src="https://cdn.bootcss.com/jquery/1.11.0-beta3/jquery.min.js"></script>
     <script>
-        $(document).ready(function() {
-
-
-
-        });
+        window.onload = function() {
+            var oUl = document.getElementById("ul1");
+            /* var aLi = oUl.getElementsByTagName('li');
+            for (var i = 0; i < aLi.length; i++) {
+                aLi[i].onclick = function() {
+                    alert(123);
+                }
+            } */
+            oUl.onclick = function() {
+                alert(123);
+            }
+        }
     </script>
 </body>
 
