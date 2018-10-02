@@ -66,6 +66,4 @@
     window['ADS']['prependChild'] = prependChild;
 
 
-
-
 })();
